@@ -1,0 +1,31 @@
+.idea/
+.vscode/
+build/
+*.class
+*.log
+*.tmp
+*.DS_Store
+.metals/
+.bsp/
+.bloop/
+*.iml
+*.pid
+*.swp
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+*.xlsx
+
+# Benchmark runtime artifacts (generated)
+*.out
+
+# Generated benchmark datasets (keep Dataset/ if you want curated static data)
+data/x86_benchmark/
+data/arm_benchmark/
+
+# Generated per-run files
+**/Repeat.csv
+**/SteadyStateProbability.txt
+**/prediction_log_*
