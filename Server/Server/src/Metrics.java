@@ -89,7 +89,7 @@ public class Metrics {
 			sheet = wb.createSheet("Test_Sheet");
 			Row rowTitles = sheet.createRow(0);
 
-			rowTitles.createCell(0).setCellValue("CPU Utilization [%]");
+			rowTitles.createCell(0).setCellValue("CORE Utilization [%]");
 			rowTitles.createCell(1).setCellValue("Sampling Rate [\u00B5s]");
 			rowTitles.createCell(2).setCellValue("Threshold [%]");
 			rowTitles.createCell(3).setCellValue("Modeled Arrival Rate [jobs/s]");
