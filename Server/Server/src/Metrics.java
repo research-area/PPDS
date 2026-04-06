@@ -105,9 +105,9 @@ public class Metrics {
 			rowTitles.createCell(13).setCellValue("Measured Utilization [%]");
 			rowTitles.createCell(14).setCellValue("Highest State");
 			rowTitles.createCell(15).setCellValue("Measured Mean CPU Time [ms]");
-			rowTitles.createCell(16).setCellValue("Measured Mean CPU Frequency [KHz]");
-			rowTitles.createCell(17).setCellValue("Modeled CPU Power [W]");
-			rowTitles.createCell(18).setCellValue("Measured CPU Power [W]");
+			rowTitles.createCell(16).setCellValue("Measured Mean CORE Frequency [KHz]");
+			rowTitles.createCell(17).setCellValue("Modeled CORE Power [W]");
+			rowTitles.createCell(18).setCellValue("Measured CORE Power [W]");
 			
 		}
 		// Time needed to create Excel file.
