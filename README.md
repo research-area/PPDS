@@ -112,9 +112,9 @@ where $f(s=0)$ is the number of observations in which the system is in state 0 (
 - `Measured Utilization [%]`: Observed CPU utilization of the target core (obtained via `mpstat`).
 - `Highest State`: Maximum number of jobs simultaneously present in the system (peak state/queue occupancy).
 - `Measured Mean CPU Time [ms]`: Average CPU execution time spent on jobs, excluding queue waiting and transfer delays.
-- `Measured Mean CORE Frequency [KHz]`: Average operating frequency of the target CPU core during the run.
-- `Modeled CORE Power [W]`: Core power estimated analytically from the model.
-- `Measured CORE Power [W]`: Core power derived from measured total CPU power after idle-core adjustment.
+- `Measured Mean CPU Frequency [KHz]`: Average operating frequency of the target CPU core during the run.
+- `Modeled CPU Power [W]`: Core power estimated analytically from the model.
+- `Measured CPU Power [W]`: Core power derived from measured total CPU power after idle-core adjustment.
 
 ---
 
